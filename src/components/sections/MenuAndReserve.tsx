@@ -42,7 +42,7 @@ export function MenuAndReserve() {
             <Eyebrow>Menu Preview</Eyebrow>
             <h2 className="mt-4 text-[clamp(1.8rem,3vw,2.8rem)] text-[var(--ink)]">A Taste of What Awaits</h2>
 
-            <div className="mt-8 grid grid-cols-3 gap-6 text-sm">
+            <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm">
               {menuCols.map((c) => (
                 <div key={c.title}>
                   <h4 className="text-[11px] uppercase tracking-[0.22em] font-semibold text-[var(--ink)]">{c.title}</h4>

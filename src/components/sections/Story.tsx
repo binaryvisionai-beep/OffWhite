@@ -20,7 +20,7 @@ export function Story() {
         <Reveal>
           <div className="relative">
             <div className="overflow-hidden arch-top shadow-[0_30px_80px_-30px_rgba(43,33,24,0.35)]">
-              <img src={arch} alt="Mediterranean archway" className="w-full h-[560px] object-cover transition-transform duration-[1.2s] hover:scale-[1.04]" width={1024} height={1280} loading="lazy" />
+              <img src={arch} alt="Mediterranean archway" className="w-full h-[380px] sm:h-[460px] lg:h-[560px] object-cover transition-transform duration-[1.2s] hover:scale-[1.04]" width={1024} height={1280} loading="lazy" />
             </div>
           </div>
         </Reveal>

@@ -4,7 +4,7 @@ import heroImg from "@/assets/hero.jpg";
 
 export function Hero() {
   return (
-    <section className="relative h-screen min-h-[720px] w-full overflow-hidden">
+    <section className="relative h-[100svh] min-h-[560px] sm:min-h-[640px] lg:min-h-[720px] w-full overflow-hidden">
       <motion.div
         initial={{ scale: 1.1 }}
         animate={{ scale: 1 }}

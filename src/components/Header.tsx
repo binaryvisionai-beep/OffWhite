@@ -25,7 +25,7 @@ export function Header() {
         scrolled ? "bg-[var(--cream)]/85 backdrop-blur-md shadow-[0_1px_0_rgba(0,0,0,0.04)]" : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 lg:px-10 py-5">
+      <div className="safe-pt safe-pl safe-pr mx-auto flex max-w-[1400px] items-center justify-between px-5 sm:px-6 lg:px-10 py-4 sm:py-5">
         <Logo light={!scrolled} />
 
         <nav className="hidden lg:flex items-center gap-9">
